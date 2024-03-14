@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2CA80E22BA2CC8D0020C340 /* AvataryugWebCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA80E12BA2CC8D0020C340 /* AvataryugWebCloudApp.swift */; };
+		B2CA80E42BA2CC8D0020C340 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA80E32BA2CC8D0020C340 /* ContentView.swift */; };
+		B2CA80E62BA2CC8F0020C340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CA80E52BA2CC8F0020C340 /* Assets.xcassets */; };
+		B2CA80E92BA2CC8F0020C340 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CA80E82BA2CC8F0020C340 /* Preview Assets.xcassets */; };
+		B2CA80F32BA2CC8F0020C340 /* AvataryugWebCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA80F22BA2CC8F0020C340 /* AvataryugWebCloudTests.swift */; };
+		B2CA80FD2BA2CC8F0020C340 /* AvataryugWebCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA80FC2BA2CC8F0020C340 /* AvataryugWebCloudUITests.swift */; };
+		B2CA80FF2BA2CC8F0020C340 /* AvataryugWebCloudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA80FE2BA2CC8F0020C340 /* AvataryugWebCloudUITestsLaunchTests.swift */; };
+		B2CA81102BA2CE750020C340 /* AYSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA810F2BA2CE750020C340 /* AYSwiftUIView.swift */; };
+		B2CA81122BA2CE7C0020C340 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA81112BA2CE7C0020C340 /* ApiServices.swift */; };
+		B2CA81142BA2CE9F0020C340 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA81132BA2CE9F0020C340 /* AppViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2CA80EF2BA2CC8F0020C340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2CA80D62BA2CC8D0020C340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2CA80DD2BA2CC8D0020C340;
+			remoteInfo = AvataryugWebCloud;
+		};
+		B2CA80F92BA2CC8F0020C340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2CA80D62BA2CC8D0020C340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2CA80DD2BA2CC8D0020C340;
+			remoteInfo = AvataryugWebCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2CA80DE2BA2CC8D0020C340 /* AvataryugWebCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvataryugWebCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CA80E12BA2CC8D0020C340 /* AvataryugWebCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvataryugWebCloudApp.swift; sourceTree = "<group>"; };
+		B2CA80E32BA2CC8D0020C340 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2CA80E52BA2CC8F0020C340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2CA80E82BA2CC8F0020C340 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2CA80EE2BA2CC8F0020C340 /* AvataryugWebCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvataryugWebCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CA80F22BA2CC8F0020C340 /* AvataryugWebCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvataryugWebCloudTests.swift; sourceTree = "<group>"; };
+		B2CA80F82BA2CC8F0020C340 /* AvataryugWebCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvataryugWebCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CA80FC2BA2CC8F0020C340 /* AvataryugWebCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvataryugWebCloudUITests.swift; sourceTree = "<group>"; };
+		B2CA80FE2BA2CC8F0020C340 /* AvataryugWebCloudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvataryugWebCloudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2CA810F2BA2CE750020C340 /* AYSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYSwiftUIView.swift; sourceTree = "<group>"; };
+		B2CA81112BA2CE7C0020C340 /* ApiServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		B2CA81132BA2CE9F0020C340 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2CA80DB2BA2CC8D0020C340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA80EB2BA2CC8F0020C340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA80F52BA2CC8F0020C340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2CA80D52BA2CC8D0020C340 = {
+			isa = PBXGroup;
+			children = (
+				B2CA80E02BA2CC8D0020C340 /* AvataryugWebCloud */,
+				B2CA80F12BA2CC8F0020C340 /* AvataryugWebCloudTests */,
+				B2CA80FB2BA2CC8F0020C340 /* AvataryugWebCloudUITests */,
+				B2CA80DF2BA2CC8D0020C340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CA80DF2BA2CC8D0020C340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA80DE2BA2CC8D0020C340 /* AvataryugWebCloud.app */,
+				B2CA80EE2BA2CC8F0020C340 /* AvataryugWebCloudTests.xctest */,
+				B2CA80F82BA2CC8F0020C340 /* AvataryugWebCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2CA80E02BA2CC8D0020C340 /* AvataryugWebCloud */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA81112BA2CE7C0020C340 /* ApiServices.swift */,
+				B2CA810F2BA2CE750020C340 /* AYSwiftUIView.swift */,
+				B2CA80E12BA2CC8D0020C340 /* AvataryugWebCloudApp.swift */,
+				B2CA80E32BA2CC8D0020C340 /* ContentView.swift */,
+				B2CA80E52BA2CC8F0020C340 /* Assets.xcassets */,
+				B2CA80E72BA2CC8F0020C340 /* Preview Content */,
+				B2CA81132BA2CE9F0020C340 /* AppViewModel.swift */,
+			);
+			path = AvataryugWebCloud;
+			sourceTree = "<group>";
+		};
+		B2CA80E72BA2CC8F0020C340 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA80E82BA2CC8F0020C340 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2CA80F12BA2CC8F0020C340 /* AvataryugWebCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA80F22BA2CC8F0020C340 /* AvataryugWebCloudTests.swift */,
+			);
+			path = AvataryugWebCloudTests;
+			sourceTree = "<group>";
+		};
+		B2CA80FB2BA2CC8F0020C340 /* AvataryugWebCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA80FC2BA2CC8F0020C340 /* AvataryugWebCloudUITests.swift */,
+				B2CA80FE2BA2CC8F0020C340 /* AvataryugWebCloudUITestsLaunchTests.swift */,
+			);
+			path = AvataryugWebCloudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2CA80DD2BA2CC8D0020C340 /* AvataryugWebCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CA81022BA2CC8F0020C340 /* Build configuration list for PBXNativeTarget "AvataryugWebCloud" */;
+			buildPhases = (
+				B2CA80DA2BA2CC8D0020C340 /* Sources */,
+				B2CA80DB2BA2CC8D0020C340 /* Frameworks */,
+				B2CA80DC2BA2CC8D0020C340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvataryugWebCloud;
+			productName = AvataryugWebCloud;
+			productReference = B2CA80DE2BA2CC8D0020C340 /* AvataryugWebCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2CA80ED2BA2CC8F0020C340 /* AvataryugWebCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CA81052BA2CC8F0020C340 /* Build configuration list for PBXNativeTarget "AvataryugWebCloudTests" */;
+			buildPhases = (
+				B2CA80EA2BA2CC8F0020C340 /* Sources */,
+				B2CA80EB2BA2CC8F0020C340 /* Frameworks */,
+				B2CA80EC2BA2CC8F0020C340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CA80F02BA2CC8F0020C340 /* PBXTargetDependency */,
+			);
+			name = AvataryugWebCloudTests;
+			productName = AvataryugWebCloudTests;
+			productReference = B2CA80EE2BA2CC8F0020C340 /* AvataryugWebCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2CA80F72BA2CC8F0020C340 /* AvataryugWebCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CA81082BA2CC8F0020C340 /* Build configuration list for PBXNativeTarget "AvataryugWebCloudUITests" */;
+			buildPhases = (
+				B2CA80F42BA2CC8F0020C340 /* Sources */,
+				B2CA80F52BA2CC8F0020C340 /* Frameworks */,
+				B2CA80F62BA2CC8F0020C340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CA80FA2BA2CC8F0020C340 /* PBXTargetDependency */,
+			);
+			name = AvataryugWebCloudUITests;
+			productName = AvataryugWebCloudUITests;
+			productReference = B2CA80F82BA2CC8F0020C340 /* AvataryugWebCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2CA80D62BA2CC8D0020C340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B2CA80DD2BA2CC8D0020C340 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B2CA80ED2BA2CC8F0020C340 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B2CA80DD2BA2CC8D0020C340;
+					};
+					B2CA80F72BA2CC8F0020C340 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B2CA80DD2BA2CC8D0020C340;
+					};
+				};
+			};
+			buildConfigurationList = B2CA80D92BA2CC8D0020C340 /* Build configuration list for PBXProject "AvataryugWebCloud" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2CA80D52BA2CC8D0020C340;
+			productRefGroup = B2CA80DF2BA2CC8D0020C340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2CA80DD2BA2CC8D0020C340 /* AvataryugWebCloud */,
+				B2CA80ED2BA2CC8F0020C340 /* AvataryugWebCloudTests */,
+				B2CA80F72BA2CC8F0020C340 /* AvataryugWebCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2CA80DC2BA2CC8D0020C340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CA80E92BA2CC8F0020C340 /* Preview Assets.xcassets in Resources */,
+				B2CA80E62BA2CC8F0020C340 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA80EC2BA2CC8F0020C340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA80F62BA2CC8F0020C340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2CA80DA2BA2CC8D0020C340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CA81142BA2CE9F0020C340 /* AppViewModel.swift in Sources */,
+				B2CA81102BA2CE750020C340 /* AYSwiftUIView.swift in Sources */,
+				B2CA80E42BA2CC8D0020C340 /* ContentView.swift in Sources */,
+				B2CA81122BA2CE7C0020C340 /* ApiServices.swift in Sources */,
+				B2CA80E22BA2CC8D0020C340 /* AvataryugWebCloudApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA80EA2BA2CC8F0020C340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CA80F32BA2CC8F0020C340 /* AvataryugWebCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA80F42BA2CC8F0020C340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CA80FF2BA2CC8F0020C340 /* AvataryugWebCloudUITestsLaunchTests.swift in Sources */,
+				B2CA80FD2BA2CC8F0020C340 /* AvataryugWebCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2CA80F02BA2CC8F0020C340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2CA80DD2BA2CC8D0020C340 /* AvataryugWebCloud */;
+			targetProxy = B2CA80EF2BA2CC8F0020C340 /* PBXContainerItemProxy */;
+		};
+		B2CA80FA2BA2CC8F0020C340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2CA80DD2BA2CC8D0020C340 /* AvataryugWebCloud */;
+			targetProxy = B2CA80F92BA2CC8F0020C340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2CA81002BA2CC8F0020C340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2CA81012BA2CC8F0020C340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2CA81032BA2CC8F0020C340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvataryugWebCloud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avataryug.ios.webcloud.AvataryugWebCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2CA81042BA2CC8F0020C340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvataryugWebCloud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avataryug.ios.webcloud.AvataryugWebCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2CA81062BA2CC8F0020C340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avataryug.ios.webcloud.AvataryugWebCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvataryugWebCloud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AvataryugWebCloud";
+			};
+			name = Debug;
+		};
+		B2CA81072BA2CC8F0020C340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avataryug.ios.webcloud.AvataryugWebCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvataryugWebCloud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AvataryugWebCloud";
+			};
+			name = Release;
+		};
+		B2CA81092BA2CC8F0020C340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avataryug.ios.webcloud.AvataryugWebCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvataryugWebCloud;
+			};
+			name = Debug;
+		};
+		B2CA810A2BA2CC8F0020C340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avataryug.ios.webcloud.AvataryugWebCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvataryugWebCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2CA80D92BA2CC8D0020C340 /* Build configuration list for PBXProject "AvataryugWebCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CA81002BA2CC8F0020C340 /* Debug */,
+				B2CA81012BA2CC8F0020C340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CA81022BA2CC8F0020C340 /* Build configuration list for PBXNativeTarget "AvataryugWebCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CA81032BA2CC8F0020C340 /* Debug */,
+				B2CA81042BA2CC8F0020C340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CA81052BA2CC8F0020C340 /* Build configuration list for PBXNativeTarget "AvataryugWebCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CA81062BA2CC8F0020C340 /* Debug */,
+				B2CA81072BA2CC8F0020C340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CA81082BA2CC8F0020C340 /* Build configuration list for PBXNativeTarget "AvataryugWebCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CA81092BA2CC8F0020C340 /* Debug */,
+				B2CA810A2BA2CC8F0020C340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2CA80D62BA2CC8D0020C340 /* Project object */;
+}
